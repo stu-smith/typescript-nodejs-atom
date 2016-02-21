@@ -1,0 +1,37 @@
+{
+  "name": "typescript-nodejs-atom",
+  "version": "0.0.1",
+  "description": "Skeleton project for application written in TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stu-smith/typescript-nodejs-atom"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "skeleton",
+    "atom",
+    "mocha"
+  ],
+  "author": "Stu Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stu-smith/typescript-nodejs-atom/issues"
+  },
+  "dependencies": {
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-tslint": "^4.3.2",
+    "gulp-typescript": "^2.11.0",
+    "mocha": "^2.4.5",
+    "mocha-jenkins-reporter": "^0.1.9",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0",
+    "tslint": "^3.4.0",
+    "typescript": "^1.7.5"
+  }
+}

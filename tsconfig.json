@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": false,
+        "outDir": "./build/"
+    },
+    "filesGlob": [
+        "src/**/*.ts",
+        "tests/**/*.ts",
+        "references/chai/chai.d.ts",
+        "references/chalk/chalk.d.ts",
+        "references/mocha/mocha.d.ts",
+        "references/winston/winston.d.ts",
+        "!node_modules/**"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": false,
+    "files": [
+        "src/index.ts",
+        "src/logging.ts",
+        "src/util.ts",
+        "tests/util.spec.ts",
+        "references/chai/chai.d.ts",
+        "references/chalk/chalk.d.ts",
+        "references/mocha/mocha.d.ts",
+        "references/winston/winston.d.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true,
+        "formatOnSave": true
+    }
+}
