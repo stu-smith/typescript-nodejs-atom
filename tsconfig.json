@@ -17,7 +17,7 @@
     },
     "filesGlob": [
         "src/**/*.ts",
-        "tests/**/*.ts",
+        "test/**/*.ts",
         "references/chai/chai.d.ts",
         "references/chalk/chalk.d.ts",
         "references/mocha/mocha.d.ts",
@@ -30,7 +30,7 @@
         "src/index.ts",
         "src/logging.ts",
         "src/util.ts",
-        "tests/util.spec.ts",
+        "test/util.spec.ts",
         "references/chai/chai.d.ts",
         "references/chalk/chalk.d.ts",
         "references/mocha/mocha.d.ts",

@@ -1,11 +1,11 @@
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
 var tslint = require('gulp-tslint');
-var mocha = require('mocha');
+var mocha = require('gulp-mocha');
 
 var buildDir = './build/';
 var sourceFiles = './src/**/*.ts';
-var testFiles = './build/tests/**/*.spec.ts';
+var testFiles = './build/test/**/*.spec.js';
 
 gulp.task('lint', function() {
   return gulp
@@ -28,7 +28,6 @@ gulp.task('compile', ['lint'], function() {
 gulp.task('test', ['compile'], function() {
 
   var xunitOptions = {
-    ui: 'exports',
     reporter: 'mocha-jenkins-reporter',
     reporterOptions: {
       'junit_report_name': 'Tests',
